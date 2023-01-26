@@ -2,7 +2,7 @@
 
 ### Быстрый старт:
 
-- Клонируйте репозиторий: `git clone https://github.com/InaKurets2021/BreakingBad.git`
+- Клонируйте репозиторий: `git clone https://github.com/InaKurets2021/Movee.git`
 - Установите зависимости: `yarn install` или `npm install`
 - Запустите проект: `yarn serve` или `npm run serve`
 
@@ -22,4 +22,4 @@
 
 ### Демо сайта:
 
-[Breaking Bad](https://inakurets2021.github.io/BreakingBad/)
+[Movee](https://inakurets2021.github.io/Movee/)
