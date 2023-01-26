@@ -1,0 +1,131 @@
+.services {
+  padding: 6.25rem 0;
+}
+.services__container {
+  max-width: 71rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.services__title {
+  margin-bottom: 3.75rem;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-align: center;
+}
+.services__list {
+  display: flex;
+  column-gap: 8.375rem;
+  row-gap: 4.375rem;
+  flex-wrap: wrap;
+}
+.services__item {
+  max-width: 30.25rem;
+  display: flex;
+}
+.services__num {
+  margin-right: 2.25rem;
+  font-weight: 300;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  text-shadow: 1px 1px 1px var(--accent-color);
+  min-width: 4.125rem;
+  height: 3.75rem;
+}
+.services__subtitle {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.services__text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.services__btn {
+  display: none;
+  background: none;
+}
+.services__svg {
+}
+@media (max-width: 1135px) {
+  .services__list {
+    justify-content: center;
+  }
+  .services__item {
+    max-width: 50rem;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .services__list {
+    justify-content: center;
+    column-gap: 0;
+    row-gap: 1.75rem;
+  }
+  .services__title {
+    margin-bottom: 3.25rem;
+  }
+  .services__item {
+    max-width: 38.125rem;
+  }
+  .services__num {
+    min-width: 7.5rem;
+    height: 6.625rem;
+    font-size: 5.625rem;
+    line-height: 6.875rem;
+  }
+  .services__subtitle {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+}
+@media (max-width: 480px) {
+  .services {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+  .services__title {
+    margin-bottom: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .services__list {
+    justify-content: space-between;
+  }
+  .services__item {
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .services__num {
+    margin-right: 0.625rem;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    min-width: 4.125rem;
+    height: 3.875rem;
+  }
+  .services__subtitle {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .services__text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .services__text.show {
+    max-height: 3rem;
+  }
+  .services__btn {
+    display: flex;
+    transition: transform 0.5s;
+  }
+  .services__btn.rotate {
+    transform: rotate(180deg);
+  }
+}

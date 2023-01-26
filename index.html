@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Movee</title>
+  </head>
+  <body>
+    <!--  BANNER  -->
+    <div class="banner" id="banner">
+      <div class="container">
+        <header class="header">
+          <a class="header__logo">MOVEE</a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#banner">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#price">Цены</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#cars">Автопарк </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#reviews">Отзывы </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#order">Контакты</a>
+              </li>
+            </ul>
+            <a class="menu__phone" href="tel:80299991213">8(029)-999-12-13</a>
+          </nav>
+          <button class="header__burger burger">
+            <span class="burger__line"></span>
+          </button>
+        </header>
+
+        <div class="banner__content">
+          <div class="banner__info">
+            <h1 class="banner__title">Квартирные переезды</h1>
+            <p class="banner__subtitle">По Бресту и области</p>
+            <div class="banner__image-mobile">
+              <img src="./img/man-mobile.png" alt="Man mobile" />
+            </div>
+            <button class="banner__button">Заказать</button>
+            <div class="banner__advantages advantages">
+              <div class="advantages__item">
+                <img class="advantages__img" src="./img/truck.svg" alt="car" />
+                <div class="advantages__text">Более 800 переездов</div>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./img/trigger.svg" alt="vector" />
+                <div class="advantages__text">Бережная упаковка</div>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__img" src="./img/money.svg" alt="money" />
+                <div class="advantages__text">Фиксированная цена</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  SERVICES  -->
+    <section class="services">
+      <div class="services__container">
+        <h2 class="services__title">Как это происходит?</h2>
+        <div class="services__list">
+          <div class="services__item">
+            <div class="services__num">01</div>
+            <div class="services__description">
+              <p class="services__subtitle">Оценка объема предстоящих работ</p>
+              <div class="services__text">Стоимость переезда зависит от количества комнат, вещей и мебели.</div>
+            </div>
+            <button class="services__btn">
+              <svg
+                class="services__svg"
+                width="20"
+                height="11"
+                viewBox="0 0 20 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.75 2.27435L9.875 8.98718L2 2.27435"
+                  stroke="#333333"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="services__item">
+            <div class="services__num">02</div>
+            <div class="services__description">
+              <p class="services__subtitle">Упаковка вещей</p>
+              <div class="services__text">
+                Упаковываем вещи в коробки, подписываем. Габаритное и деликатное, упаковываем отдельно.
+              </div>
+            </div>
+            <button class="services__btn">
+              <svg
+                class="services__svg"
+                width="20"
+                height="11"
+                viewBox="0 0 20 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.75 2.27435L9.875 8.98718L2 2.27435"
+                  stroke="#333333"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="services__item">
+            <div class="services__num">03</div>
+            <div class="services__description">
+              <p class="services__subtitle">Погрузка и транспортировка вещей</p>
+              <div class="services__text">В нашем автопарке имеются машины, подходящие для мебели любых габаритов.</div>
+            </div>
+            <button class="services__btn">
+              <svg
+                class="services__svg"
+                width="20"
+                height="11"
+                viewBox="0 0 20 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.75 2.27435L9.875 8.98718L2 2.27435"
+                  stroke="#333333"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="services__item">
+            <div class="services__num">04</div>
+            <div class="services__description">
+              <p class="services__subtitle">Распаковка и расстановка мебели</p>
+              <div class="services__text">Опытные грузчики быстро расставят мебель и уберут мусор от распаковки.</div>
+            </div>
+            <button class="services__btn">
+              <svg
+                class="services__svg"
+                width="20"
+                height="11"
+                viewBox="0 0 20 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.75 2.27435L9.875 8.98718L2 2.27435"
+                  stroke="#333333"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  PRICE  -->
+    <section class="price" id="price">
+      <div class="container">
+        <h2 class="price__title">Цены</h2>
+        <p class="price__subtitle">Фиксированная стоимость на переезд под ключ</p>
+        <div class="price__services">
+          <div class="price__service service">
+            <div class="service__title">1-комнатная кв-ра</div>
+            <ul class="service__list">
+              <li class="service__item">1 фургон</li>
+              <li class="service__item">2 грузчика</li>
+              <li class="service__item">Переезд за 4 часа</li>
+            </ul>
+            <div class="service__price">70 руб.</div>
+            <span class="service__button">Заказать</span>
+          </div>
+          <div class="price__service service">
+            <div class="service__title">2-комнатная кв-ра</div>
+            <ul class="service__list">
+              <li class="service__item">1 газель - 3 метра</li>
+              <li class="service__item">2 грузчика</li>
+              <li class="service__item">Переезд за 4 часа</li>
+            </ul>
+            <div class="service__price">100 руб.</div>
+            <span class="service__button">Заказать</span>
+          </div>
+          <div class="price__service service">
+            <div class="service__title">3-комнатная кв-ра</div>
+            <ul class="service__list">
+              <li class="service__item">1 газель - 4 метра</li>
+              <li class="service__item">2 грузчика</li>
+              <li class="service__item">Переезд за 6 часов</li>
+            </ul>
+            <div class="service__price">150 руб.</div>
+            <span class="service__button">Заказать</span>
+          </div>
+          <button class="price__button">Все цены</button>
+        </div>
+      </div>
+    </section>
+    <!--  CARS  -->
+    <section class="cars" id="cars">
+      <div class="container">
+        <h2 class="cars__title">Автопарк</h2>
+        <p class="cars__subtitle">10 видов автомобилей от 800 кг до 10 тонн</p>
+        <!-- TABS -->
+        <div class="cars__tabs tabs">
+          <label class="tabs__label">
+            <input class="tabs__input" checked name="car" type="radio" />
+            <span class="tabs__box"></span>
+            Газели
+          </label>
+          <label class="tabs__label">
+            <input class="tabs__input" name="car" type="radio" />
+            <span class="tabs__box"></span>
+            Каблуки
+          </label>
+          <label class="tabs__label">
+            <input class="tabs__input" name="car" type="radio" />
+            <span class="tabs__box"></span>
+            Грузовики
+          </label>
+        </div>
+        <!-- SLIDER -->
+        <div class="cars__slider slider">
+          <div class="slider__item active">
+            <div class="slider__info car-info">
+              <p class="car-info__title">Газель 3 метра</p>
+              <ul class="car-info__list">
+                <li class="car-info__item">Ширина 2 м</li>
+                <li class="car-info__item">Высота 2 м</li>
+                <li class="car-info__item">Объем 16 м³</li>
+                <li class="car-info__item">Грузоподъемность 1,5 т</li>
+              </ul>
+              <div class="car-info__button">Заказать</div>
+            </div>
+            <div class="slider__image">
+              <img src="./img/car-1.png" alt="Slider image" />
+            </div>
+            <p class="slider__text">Газель 3 метра / 1,5 тонны</p>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info car-info">
+              <p class="car-info__title">Каблук 2 метра</p>
+              <ul class="car-info__list">
+                <li class="car-info__item">Ширина 1.8 м</li>
+                <li class="car-info__item">Высота 1.2 м</li>
+                <li class="car-info__item">Объем 8 м³</li>
+                <li class="car-info__item">Грузоподъемность 0,8 т</li>
+              </ul>
+              <div class="car-info__button">Заказать</div>
+            </div>
+            <div class="slider__image">
+              <img src="./img/car-2.png" alt="Slider image" />
+            </div>
+            <p class="slider__text">Каблук 2 метра / 0,8 тонн</p>
+          </div>
+          <div class="slider__item">
+            <div class="slider__info car-info">
+              <p class="car-info__title">Грузовик 3 метра</p>
+              <ul class="car-info__list">
+                <li class="car-info__item">Ширина 3 м</li>
+                <li class="car-info__item">Высота 3 м</li>
+                <li class="car-info__item">Объем 20 м³</li>
+                <li class="car-info__item">Грузоподъемность 2 т</li>
+              </ul>
+              <div class="car-info__button">Заказать</div>
+            </div>
+            <div class="slider__image">
+              <img src="./img/car-3.png" alt="Slider image" />
+            </div>
+            <p class="slider__text">Каблук 2 метра / 2 тонны</p>
+          </div>
+          <!-- DOTS -->
+          <div class="dots">
+            <label class="dots__label">
+              <input class="dots__input" checked name="dot" type="radio" />
+              <span class="dots__box"></span>
+            </label>
+            <label class="dots__label">
+              <input class="dots__input" name="dot" type="radio" />
+              <span class="dots__box"></span>
+            </label>
+            <label class="dots__label">
+              <input class="dots__input" name="dot" type="radio" />
+              <span class="dots__box"></span>
+            </label>
+          </div>
+          <button class="cars__slider-arrow cars__slider-arrow--prev" type="button">
+            <img src="./img/arrow.svg" alt="" />
+          </button>
+          <button class="cars__slider-arrow cars__slider-arrow--next" type="button">
+            <img src="./img/arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="cars__button">
+          <button class="cars__btn">Заказать</button>
+        </div>
+      </div>
+    </section>
+    <!--  REVIEWS  -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="reviews__title">Отзывы</h2>
+        <div class="reviews__list">
+          <div class="reviews__item">
+            <p class="reviews__name">Ирина</p>
+            <div class="reviews__info">
+              <time class="reviews__date" datetime="2019-03-24">24.03.2019</time>
+              <div class="reviews__rating rating" data-total-value="2">
+                <div class="rating__item" data-item-value="5">★</div>
+                <div class="rating__item" data-item-value="4">★</div>
+                <div class="rating__item" data-item-value="3">★</div>
+                <div class="rating__item" data-item-value="2">★</div>
+                <div class="rating__item" data-item-value="1">★</div>
+              </div>
+            </div>
+            <div class="reviews__content">
+              Обращение к вам за помощью в переезде оставило только положительные впечатления. Хотелось отметить
+              замечательного водителя газели Алексея. Были трудности с заездом во двор, он проявил себя как компетентный
+              и профессиональный сотрудник, за что ему огромное
+              <span class="reviews__comment-dots">...</span>
+              <span class="reviews__comment-more">какой-то скрытый текст, который появляется по клику.</span>
+            </div>
+            <button class="reviews__btn">Читать полностью</button>
+          </div>
+          <div class="reviews__item">
+            <p class="reviews__name">Светлана Васильевна</p>
+            <div class="reviews__info">
+              <time class="reviews__date" datetime="2019-09-13">13.09.2019</time>
+              <div class="reviews__rating rating" data-total-value="3">
+                <div class="rating__item" data-item-value="5">★</div>
+                <div class="rating__item" data-item-value="4">★</div>
+                <div class="rating__item" data-item-value="3">★</div>
+                <div class="rating__item" data-item-value="2">★</div>
+                <div class="rating__item" data-item-value="1">★</div>
+              </div>
+            </div>
+            <div class="reviews__content">
+              Сегодня ( 13.09.2019 ) мы переехали. Остались очень довольны, несмотря на то, что к нам опоздали на 1,5
+              часа. Морально были к этому готовы ( в прошлый переезд в другой фирме тоже опоздали на час). Водитель
+              заранее позвонил, предупредил, что задерживается. Когда
+              <span class="reviews__comment-dots">...</span>
+              <span class="reviews__comment-more">какой-то скрытый текст, который появляется по клику.</span>
+            </div>
+            <button class="reviews__btn">Читать полностью</button>
+          </div>
+          <div class="reviews__item">
+            <p class="reviews__name">Ольга Петрова</p>
+            <div class="reviews__info">
+              <time class="reviews__date" datetime="2019-11-11">11.11.2019</time>
+              <div class="reviews__rating rating" data-total-value="5">
+                <div class="rating__item" data-item-value="5">★</div>
+                <div class="rating__item" data-item-value="4">★</div>
+                <div class="rating__item" data-item-value="3">★</div>
+                <div class="rating__item" data-item-value="2">★</div>
+                <div class="rating__item" data-item-value="1">★</div>
+              </div>
+            </div>
+            <div class="reviews__content">
+              Могу на 100% порекомендовать компанию MOVEE и отметить, что цены фиксированы, что упрощает расчет. Безо
+              всяких заморочек, в отличии от их конкурентов. Упаковали все качественно и быстро. Все вещи приехали в
+              сохранности. Особая благодарность Александру за его
+              <span class="reviews__comment-dots">...</span>
+              <span class="reviews__comment-more">какой-то скрытый текст, который появляется по клику.</span>
+            </div>
+            <button class="reviews__btn">Читать полностью</button>
+          </div>
+        </div>
+        <div class="reviews__all">
+          <a class="reviews__link" href="#">Все отзывы</a>
+        </div>
+      </div>
+    </section>
+    <!--  ORDER  -->
+    <section class="order" id="order">
+      <div class="container">
+        <div class="order__wrapper">
+          <h2 class="order__title">Закажи переезд прямо сейчас <span>со скидкой %</span></h2>
+          <p class="order__subtitle">Мы перезвоним в течении 10 секунд</p>
+          <div class="order__form">
+            <form class="form">
+              <div class="form__body">
+                <div class="form__contacts">
+                  <label class="form__contacts-label" for="contacts-name"></label>
+                  <input class="form__contacts-name" id="contacts-name" type="text" placeholder="Ваше имя" />
+                  <label class="form__contacts-label" for="contacts-phone"></label>
+                  <input class="form__contacts-phone" id="contacts-phone" type="tel" placeholder="Телефон" />
+                </div>
+                <div class="form__location">
+                  <div class="form__location-regions regions">
+                    <p class="regions__title">Укажите область</p>
+                    <div class="regions__wrapper">
+                      <select class="regions__select">
+                        <option class="www" value="" selected disabled default>Например: Минская</option>
+                        <option value="brest">Брестская</option>
+                        <option value="gomel">Гомельская</option>
+                        <option value="minsk">Минская</option>
+                        <option value="mogilev">Могилевская</option>
+                        <option value="vitebsk">Витебская</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form__location-cities cities">
+                    <p class="cities__title">Укажите город</p>
+                    <div class="cities__wrapper">
+                      <select class="cities__select">
+                        <option value="" disabled>Например: Минск</option>
+                        <option value="brest">Брест</option>
+                        <option value="gomel">Гомель</option>
+                        <option value="minsk">Минск</option>
+                        <option value="mogilev">Могилев</option>
+                        <option value="vitebsk">Витебск</option>
+                        <option value="moss" selected>Мозырь</option>
+                      </select>
+                    </div>
+
+                    <label class="cities__add-label" for="add-city"></label>
+                    <input class="cities__add-input" id="add-city" type="text" placeholder="Добавить город" />
+                  </div>
+                </div>
+                <div class="form__payment payment">
+                  <p class="payment__title">Способ оплаты</p>
+                  <div class="payment__wrapper">
+                    <p class="payment__item">
+                      <input class="payment__input" id="cash" name="payment" type="radio" />
+                      <label class="payment__label" for="cash">Наличными курьеру</label>
+                    </p>
+                    <p class="payment__item">
+                      <input class="payment__input" id="card" name="payment" type="radio" checked />
+                      <label class="payment__label" for="card">Картой курьеру</label>
+                    </p>
+                    <p class="payment__item">
+                      <input class="payment__input" id="transfer" name="payment" type="radio" />
+                      <label class="payment__label" for="transfer">Банковский перевод</label>
+                    </p>
+                  </div>
+                </div>
+                <div class="form__services additional-services">
+                  <p class="additional-services__title">Дополнительные услуги</p>
+                  <button
+                    class="additional-services__button"
+                    type="button"
+                    aria-label="Показать дополнительные услуги"
+                  ></button>
+                  <div class="additional-services__overlay">
+                    <div class="additional-services__list additional-services__list--active">
+                      <p class="additional-services__item">
+                        <input class="additional-services__checkbox" id="measurer" name="measurer" type="checkbox" />
+                        <label class="additional-services__label" for="measurer">Вызов замерщика</label>
+                      </p>
+                      <p class="additional-services__item">
+                        <input class="additional-services__checkbox" id="packaging" name="packaging" type="checkbox" />
+                        <label class="additional-services__label" for="packaging">Упаковка для хрупких предметов</label>
+                      </p>
+                      <p class="additional-services__item">
+                        <input class="additional-services__checkbox" id="crane" name="crane" type="checkbox" />
+                        <label class="additional-services__label" for="crane">Кран</label>
+                      </p>
+                      <p class="additional-services__item">
+                        <input
+                          class="additional-services__checkbox"
+                          id="furniture"
+                          name="furniture"
+                          type="checkbox"
+                          checked
+                        />
+                        <label class="additional-services__label" for="furniture">Сборка мебели</label>
+                      </p>
+                      <p class="additional-services__item">
+                        <input
+                          class="additional-services__checkbox"
+                          id="bulky-items"
+                          name="bulky-items"
+                          type="checkbox"
+                          checked
+                        />
+                        <label class="additional-services__label" for="bulky-items">Крупногабаритные предметы</label>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form__footer">
+                <div class="form__footer-left">
+                  <time class="form__footer-timer">05:37:25</time>
+                </div>
+                <div class="form__footer-right">
+                  <button class="form__footer-button">Заказать со скидой</button>
+                  <button class="form__footer-btn">Перезвонить мне</button>
+                  <input class="form__footer-checkbox" type="checkbox" id="footer-checkbox" checked />
+                  <label class="form__footer-agree" for="footer-checkbox">Даю согласие на обработку данных</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  MAP  -->
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.2060667877704!2d23.690351415232982!3d52.094181175451645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210b9ff6b8aec5%3A0x86a32a37535f25dc!2zQ2FycGUgZGllbSAtINCb0L7QstC4INC80L7QvNC10L3Rgg!5e0!3m2!1sru!2sby!4v1643454886132!5m2!1sru!2sby"
+        width="100%"
+        height="666"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <div class="map__description">
+        <p class="map__city">Брест</p>
+        <a class="map__phone" href="tel:80299991213">8 (029)-999-12-13</a>
+        <a class="map__email" href="mailto:hello@movee.ru">hello@movee.ru</a>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__info">
+          <a class="footer__logo">MOVEE</a>
+          <a class="footer__politics">Политика конфиденциальнности</a>
+          <a class="footer__agreement"> Соглашение на обработку персональных данных </a>
+        </div>
+        <div class="footer__menu">
+          <nav class="footer__menu-nav">
+            <a class="footer__menu-link" href="#banner">Главная</a>
+            <a class="footer__menu-link" href="#price">Цены</a>
+            <a class="footer__menu-link" href="#cars">Автопарк </a>
+            <a class="footer__menu-link" href="#reviews">Отзывы </a>
+            <a class="footer__menu-link" href="#order">Контакты</a>
+          </nav>
+        </div>
+        <div class="footer__contacts">
+          <button class="footer__button">Обратный звонок</button>
+          <a class="footer__phone" href="tel:80299991213">8(029)-999-12-13</a>
+          <ul class="socials">
+            <li class="socials__item">
+              <a class="socials__link" href="">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M32.2903 2.88433C31.0775 0.835665 28.8382 0 24.5618 0H9.03798C4.66357 0 2.38636 0.889569 1.17806 3.07066C0 5.19726 0 8.33062 0 12.6673V20.9329C0 29.3343 1.39776 33.6 9.03798 33.6H24.5618C28.2703 33.6 30.3254 32.8627 31.6549 31.0547C33.0184 29.2007 33.6 26.1736 33.6 20.9329V12.6673C33.6 8.0939 33.5089 4.94207 32.2903 2.88433ZM21.5714 17.9412L14.522 23.1762C14.3644 23.2933 14.1921 23.3513 14.02 23.3513C13.8251 23.3513 13.6307 23.2768 13.4584 23.1286C13.1341 22.8494 12.9361 22.3499 12.9361 21.8112V11.3748C12.9361 10.837 13.1336 10.338 13.4572 10.0586C13.781 9.77925 14.1836 9.76016 14.5195 10.0081L21.5689 15.2094C21.9275 15.474 22.1527 16.0001 22.1532 16.5741C22.1537 17.1485 21.9295 17.6754 21.5714 17.9412Z"
+                    fill="#333333"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="">
+                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.20001 0C3.20987 0 2.26028 0.393332 1.56014 1.09347C0.860007 1.7936 0.466675 2.74319 0.466675 3.73333V29.8667C0.466675 30.8568 0.860007 31.8064 1.56014 32.5065C2.26028 33.2067 3.20987 33.6 4.20001 33.6H30.3333C31.3235 33.6 32.2731 33.2067 32.9732 32.5065C33.6733 31.8064 34.0667 30.8568 34.0667 29.8667V3.73333C34.0667 2.74319 33.6733 1.7936 32.9732 1.09347C32.2731 0.393332 31.3235 0 30.3333 0H4.20001ZM5.13334 10.2667H7.93334C8.60534 10.2667 8.86667 10.5653 9.12801 11.3307C10.472 15.2507 12.7307 18.6667 13.664 18.6667C14.0187 18.6667 14.1867 18.5173 14.1867 17.64V13.5893C14.0747 11.7227 13.0853 11.5547 13.0853 10.9013C13.0853 10.584 13.3467 10.2667 13.7947 10.2667H18.1067C18.704 10.2667 18.8907 10.584 18.8907 11.2747V16.7253C18.8907 17.304 19.1333 17.5093 19.32 17.5093C19.6747 17.5093 19.9733 17.304 20.608 16.6693C22.5867 14.448 23.9867 11.0507 23.9867 11.0507C24.1733 10.64 24.4907 10.2667 25.1813 10.2667H27.9253C28.7653 10.2667 28.952 10.696 28.7653 11.2747C28.4107 12.88 25.0693 17.6027 25.0693 17.6027C24.7333 18.0693 24.6587 18.2933 25.0693 18.8347C25.3493 19.2267 26.32 20.048 26.9547 20.8133C28.1493 22.1387 29.0267 23.2587 29.288 24.024C29.512 24.808 29.12 25.2 28.336 25.2H25.5733C24.528 25.2 24.2293 24.36 22.3627 22.4933C20.72 20.9253 20.0667 20.72 19.6187 20.72C19.0587 20.72 18.8907 20.8693 18.8907 21.672V24.136C18.8907 24.808 18.6853 25.2 16.9307 25.2C14.0187 25.2 10.808 23.4267 8.54934 20.16C5.13334 15.3813 4.20001 11.7787 4.20001 11.0507C4.20001 10.64 4.34934 10.2667 5.13334 10.2667Z"
+                    fill="#333333"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="">
+                <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.93508 0C3.53648 0 0.799927 2.73655 0.799927 6.13516V27.4649C0.799927 30.8635 3.53648 33.6 6.93508 33.6H18.4956V20.4645H15.0222V15.7353H18.4956V11.6949C18.4956 8.52056 20.5479 5.60596 25.2754 5.60596C27.1896 5.60596 28.605 5.78972 28.605 5.78972L28.4937 10.206C28.4937 10.206 27.0501 10.1924 25.4749 10.1924C23.7701 10.1924 23.4967 10.9779 23.4967 12.2819V15.7353H28.6291L28.4055 20.4645H23.4967V33.6001H28.2648C31.6634 33.6001 34.3999 30.8635 34.3999 27.4649V6.13519C34.3999 2.73659 31.6634 3.36e-05 28.2648 3.36e-05H6.93505L6.93508 0Z"
+                    fill="#333333"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.1954 11.1974C14.1106 11.1974 11.5931 13.7149 11.5931 16.7997C11.5931 19.8845 14.1106 22.402 17.1954 22.402C20.2802 22.402 22.7977 19.8845 22.7977 16.7997C22.7977 13.7149 20.2802 11.1974 17.1954 11.1974ZM33.998 16.7997C33.998 14.4798 34.019 12.1809 33.8888 9.86513C33.7585 7.17536 33.1449 4.78819 31.178 2.8213C29.2069 0.850207 26.8239 0.240807 24.1341 0.110522C21.8142 -0.0197638 19.5153 0.00125009 17.1996 0.00125009C14.8797 0.00125009 12.5808 -0.0197638 10.265 0.110522C7.57527 0.240807 5.1881 0.85441 3.22121 2.8213C1.25011 4.7924 0.64071 7.17536 0.510424 9.86513C0.380139 12.1851 0.401152 14.484 0.401152 16.7997C0.401152 19.1154 0.380139 21.4185 0.510424 23.7342C0.64071 26.424 1.25431 28.8112 3.22121 30.7781C5.1923 32.7492 7.57527 33.3586 10.265 33.4888C12.585 33.6191 14.8839 33.5981 17.1996 33.5981C19.5195 33.5981 21.8184 33.6191 24.1341 33.4888C26.8239 33.3586 29.2111 32.745 31.178 30.7781C33.1491 28.807 33.7585 26.424 33.8888 23.7342C34.0232 21.4185 33.998 19.1196 33.998 16.7997ZM17.1954 25.4195C12.4253 25.4195 8.57552 21.5698 8.57552 16.7997C8.57552 12.0296 12.4253 8.17982 17.1954 8.17982C21.9655 8.17982 25.8152 12.0296 25.8152 16.7997C25.8152 21.5698 21.9655 25.4195 17.1954 25.4195ZM26.1683 9.83991C25.0546 9.83991 24.1552 8.94052 24.1552 7.82679C24.1552 6.71306 25.0546 5.81367 26.1683 5.81367C27.282 5.81367 28.1814 6.71306 28.1814 7.82679C28.1817 8.09125 28.1299 8.35318 28.0288 8.59757C27.9278 8.84196 27.7795 9.06402 27.5925 9.25102C27.4055 9.43802 27.1835 9.5863 26.9391 9.68735C26.6947 9.7884 26.4327 9.84024 26.1683 9.83991Z"
+                    fill="#333333"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!--  SCRIPTS  -->
+    <script src="./js/banner.js"></script>
+    <script src="./js/services.js"></script>
+    <script src="./js/cars.js"></script>
+    <script src="./js/reviews.js"></script>
+    <script src="./js/order.js"></script>
+  </body>
+</html>

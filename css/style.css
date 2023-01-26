@@ -1,0 +1,31 @@
+@import url(./nullstyle.css);
+@import url(./vars.css);
+@import url(./banner.css);
+@import url(./services.css);
+@import url(./price.css);
+@import url(./cars.css);
+@import url(./reviews.css);
+@import url(./order.css);
+@import url(./map.css);
+@import url(./footer.css);
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth; /*  Плавный скролл по якарям */
+}
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--primary);
+}
+body.no-scroll {
+  overflow: hidden;
+}
+.container {
+  max-width: 1330px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
