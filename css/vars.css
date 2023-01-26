@@ -17,14 +17,14 @@
 
   /* Colors */
   --primary: #333333;
-  --accent-color: #dbfafa;
+  --accent-color: #d6d4d4;
   --default-light-color: #ffffff;
   --light-color: #f2f2f2;
   --default-dark-color: #000000;
   --dark-color: #0e0f12;
-  --danger-color: #48b7eb;
-  --warning-color: #f58b00;
-  --warning-color-dark: #ff772b;
-  --border-color: #ebebeb;
+  --danger-color: #f84e42;
+  --warning-color: #f50800;
+  --warning-color-dark: #ff2b2b;
+  --border-color: #807d7d;
   --border-rgba-color: rgba(51, 51, 51, 0.7);
 }

@@ -161,7 +161,7 @@
   display: block;
   width: 0.75rem;
   height: 0.75rem;
-  background: var(--accent-color);
+  background: var(--border-rgba-color);
   border-radius: 50%;
   transform: scale(0);
   position: absolute;
@@ -248,11 +248,11 @@
   display: block;
   width: 1.375rem;
   height: 1.375rem;
-  background: url('../img/check-yellow.svg') no-repeat;
+  background: url('../img/checkmark_black.svg') no-repeat;
   opacity: 0;
   position: absolute;
-  left: 0.3125rem;
-  top: 0.3125rem;
+  left: 0rem;
+  top: 0rem;
   transition: opacity 0.5s ease;
 }
 .additional-services__checkbox:checked + .additional-services__label::before {
